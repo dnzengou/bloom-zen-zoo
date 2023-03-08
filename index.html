@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/main.js"></script>
+    <title>Zoo virtuel</title>
+  </head>
+  <body>
+  	<div class="jumbotron">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-2">
+  					<img src="img/panda.png">
+  				</div>
+  				<div class="col-md-10">
+						<h1>Bloom, My Zen Zoo</h1>
+  					<div class="initial-instructions">
+  						<p>This application allows you to create your zen zoo and and build up a healthy life with fun and rewards.
+Choose your avatar, give it a name, and your good to go! ✨<br>
+Your pet relies on you to have a happy healthy life: make sure it eats yummy food and drinks water, walks regularly, gets some alone time as well as family and friend tim. Teach it good routines and loves them, play with them and give them time to rest, just like you would do for yourself ❤️</p>
+	  				</div>
+	  			</div>
+	  	</div>
+	  	</div>
+	  
+	  </div>
+  
+	  <div class="container">
+	  	
+	  	<div class="row">
+	  	<div class="col-md-8">
+	  
+	  	
+	  	<div class="pet-stats">
+	  		<h3>Here's how <span id="name"></span> is doing:</h3>
+	  		<p>Food level: <span id="food"></span></p>
+	  		<p>Rest level: <span id="sleep"></span></p>
+	  		<p>Activity level: <span id="activity"></span></p>
+	  		<div class="btn-group">
+  				<button type="button" class="btn btn-default" id="feed">Feed</button>
+  				<button type="button" class="btn btn-default" id="put-to-bed">Put to rest</button>
+  				<button type="button" class="btn btn-default" id="play">Play</button>
+				</div>
+	  		
+	  	</div> 
+	  	
+	  	<div class="after-death">
+	  		<h3 id="status-message"></h3>
+	  	</div>
+	  	</div>
+	  	
+	  	<div class="col-md-4">
+	  		<div id="zoo">
+	  			<h3>My zen zoo</h3>
+	  			<p>Clic to check the avatar's name.</p>
+	  			<div class="btn-group-vertical" id="zoo-list">
+	  			</div>
+	  		</div>
+	  		<h4>Create an avatar</h4>
+	  		<form id="new-pet">
+	  			<div class="form-group">
+          	<label for="new-pet-name">What's the name of your avatar?</label>
+          	<input type="text" class="form-control" id="new-pet-name">
+        	</div>
+        
+      	  <div class="form-group">
+        	  <label for="new-pet-type">What kind of pet is it?</label>
+        	 	 <input type="text" class="form-control" id="new-pet-type">
+        	</div>
+          
+        	<button type="submit" class="btn">Create an avatar</button>
+	  		</form>
+	  		</div>
+	  	</div> 
+  	</div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+div.pet-stats {
+	display: none;
+}
+
+div.after-death {
+	display: none;
+}
+
+div#zoo {
+	display: none;
+}
+
+.jumbotron {
+	background-color: #f7f0f0;
+}
+
+img {
+	width: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Courier New";
+	color: #08541a;
+	font-weight: bold;
+}
+
+.jumbotron h1 {
+	color: #08541a;
+}
+
+#zoo p {
+	font-style: italic;
+}
+
+button.btn {
+	background-color: #a3c8e6;
+	font-weight: bold;
+	border-color: #08541a;
+}
+
+.btn-default {
+	color: #08541a;
+	border-color: #08541a;
+	font-weight: bold;
+}
+
+button {
+	color: #08541a;
+}
+
+button.btn:hover {
+	background-color: #ffc1d9;
+}
